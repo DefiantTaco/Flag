@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .blue{
+      background-color: blue;
+      float: left;
+      width: 33%;
+      height: 100vh;
+    }
+    .vit{
+      background-color: green;
+      float: left;
+      width: 33%;
+      height: 100vh;
+    }
+    .red{
+      background-color: red;
+      float: left;
+      width: 33%;
+      height: 100vh;
+    }
+    </style>
+    <script src="C:\Users\marcus.lindback\Desktop\jquery.js"></script>
+    <script src="C:\Users\marcus.lindback\Desktop\jquery-ui.js"></script>
+  </head>
+  <body>
+    <div class="blue"></div>
+    <div class="vit"></div>
+    <div class="red"></div>
+<script>
+$( document ).click(function() {
+  $( "div" ).toggle( "explode" );
+});
+
+$( document ).click(function() {
+  $( "div" ).toggle( "pulsate" );
+});
+
+$( document ).click(function() {
+  $( "div" ).effect( "shake" );
+});
+
+$( document ).click(function() {
+  $( "div" ).toggle( "puff" );
+});
+
+$( document ).click(function() {
+  $( "div" ).toggle( "puff" );
+});
+</script>
+  </body>
+</html>
